@@ -19,4 +19,13 @@ html {
 
 h1 {
   font-size: 100px;
+  line-height: 80px;
+}
+
+.icon img {
+  transition: all linear 2s ease;
+}
+
+.icon:hover img {
+  transform: scale(1.15,1.15);
 }
